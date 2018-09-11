@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+
+  vertx1:
+    build: .
+    ports:
+     - 4001:4000
+     - 8001:8080
+    environment:
+      - START_VERTICLE=true
+
+  vertx2:
+    build: .
+    ports:
+      - 4002:4000
+      - 8002:8080
+    environment:
+      - START_VERTICLE=false
