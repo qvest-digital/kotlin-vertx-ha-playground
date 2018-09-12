@@ -12,8 +12,7 @@ fun main(args: Array<String>) {
 
     val LOG = Logger.getLogger("main")
     val startVerticle = (System.getenv("START_VERTICLE") != null && System.getenv("START_VERTICLE").compareTo("true") == 0)
-
-    LOG.info("starting kotlin vert.x lab")
+        LOG.info("starting kotlin vert.x lab")
 
     val options = VertxOptions()
     options.isHAEnabled = true
@@ -31,6 +30,7 @@ fun main(args: Array<String>) {
             if (startVerticle) {
                 val deployOptions = DeploymentOptions()
                 deployOptions.isHa = true
+                LOG.info(deployOptions.toJson().toString())
                 vertx.deployVerticle(HaTestVerticle::class.qualifiedName, deployOptions)
             }
         }
