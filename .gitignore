@@ -1,7 +1,4 @@
 .idea
 kotlin-vertx-ha-playground.iml
 out
-gradle
-gradlew
-gradlew.bat
 .gradle
