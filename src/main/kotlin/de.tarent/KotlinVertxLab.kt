@@ -36,5 +36,5 @@ fun main(args: Array<String>) {
         }
     }
 
-    LOG.info("exiting kotlin vert.x lab management service")
+    LOG.info("exiting kotlin vert.x lab")
 }
