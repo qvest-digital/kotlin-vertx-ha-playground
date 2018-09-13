@@ -2,6 +2,7 @@ FROM openjdk:8-alpine as builder
 
 COPY . /src
 WORKDIR /src
+RUN ./gradlew --no-daemon init
 RUN ./gradlew --no-daemon shadowJar
 
 FROM openjdk:8-jre-alpine
