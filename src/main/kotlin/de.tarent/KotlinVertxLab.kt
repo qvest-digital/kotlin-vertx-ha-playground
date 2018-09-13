@@ -3,9 +3,6 @@ package de.tarent
 import io.vertx.core.DeploymentOptions
 import io.vertx.core.Vertx
 import io.vertx.core.VertxOptions
-import io.vertx.ext.shell.ShellService
-import io.vertx.ext.shell.ShellServiceOptions
-import io.vertx.ext.shell.term.TelnetTermOptions
 import java.util.logging.Logger
 
 fun main(args: Array<String>) {
@@ -19,13 +16,6 @@ fun main(args: Array<String>) {
     Vertx.clusteredVertx(options) { cluster ->
         if (cluster.succeeded()) {
             val vertx = cluster.result()
-
-            val service = ShellService.create(vertx,
-                    ShellServiceOptions().setTelnetOptions(
-                            TelnetTermOptions().setPort(4000)
-                    )
-            )
-            service.start()
 
             if (startVerticle) {
                 val deployOptions = DeploymentOptions()
