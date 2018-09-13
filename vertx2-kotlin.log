@@ -1,0 +1,82 @@
+Attaching to kotlin-vertx-ha-playground_vertx2_1
+[36mvertx2_1  |[0m Sep 13, 2018 1:44:55 PM de.tarent.KotlinVertxLabKt main
+[36mvertx2_1  |[0m INFO: starting kotlin vert.x lab
+[36mvertx2_1  |[0m Sep 13, 2018 1:44:55 PM de.tarent.KotlinVertxLabKt main
+[36mvertx2_1  |[0m INFO: exiting kotlin vert.x lab
+[36mvertx2_1  |[0m Sep 13, 2018 1:44:56 PM com.hazelcast.instance.DefaultAddressPicker
+[36mvertx2_1  |[0m INFO: [LOCAL] [dev] [3.8.2] Prefer IPv4 stack is true.
+[36mvertx2_1  |[0m Sep 13, 2018 1:44:56 PM com.hazelcast.instance.DefaultAddressPicker
+[36mvertx2_1  |[0m INFO: [LOCAL] [dev] [3.8.2] Picked [172.25.0.2]:5701, using socket ServerSocket[addr=/0.0.0.0,localport=5701], bind any local is true
+[36mvertx2_1  |[0m Sep 13, 2018 1:44:56 PM com.hazelcast.system
+[36mvertx2_1  |[0m INFO: [172.25.0.2]:5701 [dev] [3.8.2] Hazelcast 3.8.2 (20170518 - a60f944) starting at [172.25.0.2]:5701
+[36mvertx2_1  |[0m Sep 13, 2018 1:44:56 PM com.hazelcast.system
+[36mvertx2_1  |[0m INFO: [172.25.0.2]:5701 [dev] [3.8.2] Copyright (c) 2008-2016, Hazelcast, Inc. All Rights Reserved.
+[36mvertx2_1  |[0m Sep 13, 2018 1:44:56 PM com.hazelcast.system
+[36mvertx2_1  |[0m INFO: [172.25.0.2]:5701 [dev] [3.8.2] Configured Hazelcast Serialization version : 1
+[36mvertx2_1  |[0m Sep 13, 2018 1:44:57 PM com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator
+[36mvertx2_1  |[0m INFO: [172.25.0.2]:5701 [dev] [3.8.2] Backpressure is disabled
+[36mvertx2_1  |[0m Sep 13, 2018 1:44:57 PM com.hazelcast.instance.Node
+[36mvertx2_1  |[0m INFO: [172.25.0.2]:5701 [dev] [3.8.2] Creating MulticastJoiner
+[36mvertx2_1  |[0m Sep 13, 2018 1:44:57 PM com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl
+[36mvertx2_1  |[0m INFO: [172.25.0.2]:5701 [dev] [3.8.2] Starting 8 partition threads
+[36mvertx2_1  |[0m Sep 13, 2018 1:44:57 PM com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl
+[36mvertx2_1  |[0m INFO: [172.25.0.2]:5701 [dev] [3.8.2] Starting 5 generic threads (1 dedicated for priority tasks)
+[36mvertx2_1  |[0m Sep 13, 2018 1:44:57 PM com.hazelcast.core.LifecycleService
+[36mvertx2_1  |[0m INFO: [172.25.0.2]:5701 [dev] [3.8.2] [172.25.0.2]:5701 is STARTING
+[36mvertx2_1  |[0m Sep 13, 2018 1:45:00 PM com.hazelcast.system
+[36mvertx2_1  |[0m INFO: [172.25.0.2]:5701 [dev] [3.8.2] Cluster version set to 3.8
+[36mvertx2_1  |[0m Sep 13, 2018 1:45:00 PM com.hazelcast.internal.cluster.impl.MulticastJoiner
+[36mvertx2_1  |[0m INFO: [172.25.0.2]:5701 [dev] [3.8.2] 
+[36mvertx2_1  |[0m 
+[36mvertx2_1  |[0m 
+[36mvertx2_1  |[0m Members [1] {
+[36mvertx2_1  |[0m 	Member [172.25.0.2]:5701 - d0f5ecc1-ec13-4349-b835-4d0de3902daf this
+[36mvertx2_1  |[0m }
+[36mvertx2_1  |[0m 
+[36mvertx2_1  |[0m Sep 13, 2018 1:45:00 PM com.hazelcast.core.LifecycleService
+[36mvertx2_1  |[0m INFO: [172.25.0.2]:5701 [dev] [3.8.2] [172.25.0.2]:5701 is STARTED
+[36mvertx2_1  |[0m Sep 13, 2018 1:45:00 PM com.hazelcast.nio.tcp.SocketAcceptorThread
+[36mvertx2_1  |[0m INFO: [172.25.0.2]:5701 [dev] [3.8.2] Accepting socket connection from /172.25.0.3:54029
+[36mvertx2_1  |[0m Sep 13, 2018 1:45:00 PM com.hazelcast.nio.tcp.TcpIpConnectionManager
+[36mvertx2_1  |[0m INFO: [172.25.0.2]:5701 [dev] [3.8.2] Established socket connection between /172.25.0.2:5701 and /172.25.0.3:54029
+[36mvertx2_1  |[0m Sep 13, 2018 1:45:00 PM com.hazelcast.internal.partition.impl.PartitionStateManager
+[36mvertx2_1  |[0m INFO: [172.25.0.2]:5701 [dev] [3.8.2] Initializing cluster partition table arrangement...
+[36mvertx2_1  |[0m Sep 13, 2018 1:45:00 PM io.vertx.core.impl.HAManager
+[36mvertx2_1  |[0m INFO: A quorum has been obtained. Any deploymentIDs waiting on a quorum will now be deployed
+[36mvertx2_1  |[0m Sep 13, 2018 1:45:01 PM com.hazelcast.internal.cluster.ClusterService
+[36mvertx2_1  |[0m INFO: [172.25.0.2]:5701 [dev] [3.8.2] 
+[36mvertx2_1  |[0m 
+[36mvertx2_1  |[0m Members [2] {
+[36mvertx2_1  |[0m 	Member [172.25.0.2]:5701 - d0f5ecc1-ec13-4349-b835-4d0de3902daf this
+[36mvertx2_1  |[0m 	Member [172.25.0.3]:5701 - dae6d8e4-8d61-467e-b520-4d06660e45a3
+[36mvertx2_1  |[0m }
+[36mvertx2_1  |[0m 
+[36mvertx2_1  |[0m Sep 13, 2018 1:45:01 PM com.hazelcast.internal.partition.impl.MigrationManager
+[36mvertx2_1  |[0m INFO: [172.25.0.2]:5701 [dev] [3.8.2] Re-partitioning cluster data... Migration queue size: 271
+[36mvertx2_1  |[0m Sep 13, 2018 1:45:02 PM com.hazelcast.internal.cluster.impl.ClusterHeartbeatManager
+[36mvertx2_1  |[0m WARNING: [172.25.0.2]:5701 [dev] [3.8.2] Resetting heartbeat timestamps because of huge system clock jump! Clock-Jump: -3522 ms, Heartbeat-Timeout: 5000 ms
+[36mvertx2_1  |[0m Sep 13, 2018 1:45:03 PM com.hazelcast.internal.partition.impl.MigrationThread
+[36mvertx2_1  |[0m INFO: [172.25.0.2]:5701 [dev] [3.8.2] All migration tasks have been completed, queues are empty.
+[36mvertx2_1  |[0m Sep 13, 2018 1:45:13 PM com.hazelcast.nio.tcp.TcpIpConnection
+[36mvertx2_1  |[0m INFO: [172.25.0.2]:5701 [dev] [3.8.2] Connection[id=1, /172.25.0.2:5701->/172.25.0.3:54029, endpoint=[172.25.0.3]:5701, alive=false, type=MEMBER] closed. Reason: Connection closed by the other side
+[36mvertx2_1  |[0m Sep 13, 2018 1:45:13 PM com.hazelcast.nio.tcp.InitConnectionTask
+[36mvertx2_1  |[0m INFO: [172.25.0.2]:5701 [dev] [3.8.2] Connecting to /172.25.0.3:5701, timeout: 0, bind-any: true
+[36mvertx2_1  |[0m Sep 13, 2018 1:45:13 PM com.hazelcast.nio.tcp.InitConnectionTask
+[36mvertx2_1  |[0m INFO: [172.25.0.2]:5701 [dev] [3.8.2] Could not connect to: /172.25.0.3:5701. Reason: SocketException[Connection refused to address /172.25.0.3:5701]
+[36mvertx2_1  |[0m Sep 13, 2018 1:45:13 PM com.hazelcast.nio.tcp.InitConnectionTask
+[36mvertx2_1  |[0m INFO: [172.25.0.2]:5701 [dev] [3.8.2] Connecting to /172.25.0.3:5701, timeout: 0, bind-any: true
+[36mvertx2_1  |[0m Sep 13, 2018 1:45:22 PM com.hazelcast.internal.cluster.impl.ClusterHeartbeatManager
+[36mvertx2_1  |[0m WARNING: [172.25.0.2]:5701 [dev] [3.8.2] Removing Member [172.25.0.3]:5701 - dae6d8e4-8d61-467e-b520-4d06660e45a3 because it has not sent any heartbeats for 5000 ms. Now: 2018-09-13 13:45:22.765, last heartbeat time was 2018-09-13 13:45:12.965
+[36mvertx2_1  |[0m Sep 13, 2018 1:45:22 PM com.hazelcast.internal.cluster.ClusterService
+[36mvertx2_1  |[0m INFO: [172.25.0.2]:5701 [dev] [3.8.2] Removing Member [172.25.0.3]:5701 - dae6d8e4-8d61-467e-b520-4d06660e45a3
+[36mvertx2_1  |[0m Sep 13, 2018 1:45:22 PM com.hazelcast.internal.cluster.ClusterService
+[36mvertx2_1  |[0m INFO: [172.25.0.2]:5701 [dev] [3.8.2] 
+[36mvertx2_1  |[0m 
+[36mvertx2_1  |[0m Members [1] {
+[36mvertx2_1  |[0m 	Member [172.25.0.2]:5701 - d0f5ecc1-ec13-4349-b835-4d0de3902daf this
+[36mvertx2_1  |[0m }
+[36mvertx2_1  |[0m 
+[36mvertx2_1  |[0m Sep 13, 2018 1:45:22 PM com.hazelcast.transaction.TransactionManagerService
+[36mvertx2_1  |[0m INFO: [172.25.0.2]:5701 [dev] [3.8.2] Committing/rolling-back alive transactions of Member [172.25.0.3]:5701 - dae6d8e4-8d61-467e-b520-4d06660e45a3, UUID: dae6d8e4-8d61-467e-b520-4d06660e45a3
+[36mvertx2_1  |[0m Sep 13, 2018 1:45:22 PM com.hazelcast.internal.partition.impl.MigrationManager
+[36mvertx2_1  |[0m INFO: [172.25.0.2]:5701 [dev] [3.8.2] Partition balance is ok, no need to re-partition cluster data... 

@@ -1,0 +1,60 @@
+Attaching to java-vertx-ha-playground_vertx1_1
+[36mvertx1_1  |[0m Sep 13, 2018 1:42:44 PM de.tarent.JavaVertxLab main
+[36mvertx1_1  |[0m INFO: starting kotlin vert.x lab
+[36mvertx1_1  |[0m Sep 13, 2018 1:42:44 PM de.tarent.JavaVertxLab main
+[36mvertx1_1  |[0m INFO: true
+[36mvertx1_1  |[0m SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+[36mvertx1_1  |[0m SLF4J: Defaulting to no-operation (NOP) logger implementation
+[36mvertx1_1  |[0m SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[36mvertx1_1  |[0m Sep 13, 2018 1:42:45 PM de.tarent.JavaVertxLab main
+[36mvertx1_1  |[0m INFO: exiting kotlin vert.x lab
+[36mvertx1_1  |[0m Sep 13, 2018 1:42:45 PM com.hazelcast.instance.DefaultAddressPicker
+[36mvertx1_1  |[0m INFO: [LOCAL] [dev] [3.8.2] Prefer IPv4 stack is true.
+[36mvertx1_1  |[0m Sep 13, 2018 1:42:45 PM com.hazelcast.instance.DefaultAddressPicker
+[36mvertx1_1  |[0m INFO: [LOCAL] [dev] [3.8.2] Picked [172.24.0.3]:5701, using socket ServerSocket[addr=/0.0.0.0,localport=5701], bind any local is true
+[36mvertx1_1  |[0m Sep 13, 2018 1:42:45 PM com.hazelcast.system
+[36mvertx1_1  |[0m INFO: [172.24.0.3]:5701 [dev] [3.8.2] Hazelcast 3.8.2 (20170518 - a60f944) starting at [172.24.0.3]:5701
+[36mvertx1_1  |[0m Sep 13, 2018 1:42:45 PM com.hazelcast.system
+[36mvertx1_1  |[0m INFO: [172.24.0.3]:5701 [dev] [3.8.2] Copyright (c) 2008-2016, Hazelcast, Inc. All Rights Reserved.
+[36mvertx1_1  |[0m Sep 13, 2018 1:42:45 PM com.hazelcast.system
+[36mvertx1_1  |[0m INFO: [172.24.0.3]:5701 [dev] [3.8.2] Configured Hazelcast Serialization version : 1
+[36mvertx1_1  |[0m Sep 13, 2018 1:42:46 PM com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator
+[36mvertx1_1  |[0m INFO: [172.24.0.3]:5701 [dev] [3.8.2] Backpressure is disabled
+[36mvertx1_1  |[0m Sep 13, 2018 1:42:46 PM com.hazelcast.instance.Node
+[36mvertx1_1  |[0m INFO: [172.24.0.3]:5701 [dev] [3.8.2] Creating MulticastJoiner
+[36mvertx1_1  |[0m Sep 13, 2018 1:42:46 PM com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl
+[36mvertx1_1  |[0m INFO: [172.24.0.3]:5701 [dev] [3.8.2] Starting 8 partition threads
+[36mvertx1_1  |[0m Sep 13, 2018 1:42:46 PM com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl
+[36mvertx1_1  |[0m INFO: [172.24.0.3]:5701 [dev] [3.8.2] Starting 5 generic threads (1 dedicated for priority tasks)
+[36mvertx1_1  |[0m Sep 13, 2018 1:42:46 PM com.hazelcast.core.LifecycleService
+[36mvertx1_1  |[0m INFO: [172.24.0.3]:5701 [dev] [3.8.2] [172.24.0.3]:5701 is STARTING
+[36mvertx1_1  |[0m Sep 13, 2018 1:42:49 PM com.hazelcast.internal.cluster.impl.MulticastJoiner
+[36mvertx1_1  |[0m INFO: [172.24.0.3]:5701 [dev] [3.8.2] Trying to join to discovered node: [172.24.0.2]:5701
+[36mvertx1_1  |[0m Sep 13, 2018 1:42:49 PM com.hazelcast.nio.tcp.InitConnectionTask
+[36mvertx1_1  |[0m INFO: [172.24.0.3]:5701 [dev] [3.8.2] Connecting to /172.24.0.2:5701, timeout: 0, bind-any: true
+[36mvertx1_1  |[0m Sep 13, 2018 1:42:49 PM com.hazelcast.nio.tcp.TcpIpConnectionManager
+[36mvertx1_1  |[0m INFO: [172.24.0.3]:5701 [dev] [3.8.2] Established socket connection between /172.24.0.3:50643 and /172.24.0.2:5701
+[36mvertx1_1  |[0m Sep 13, 2018 1:42:50 PM com.hazelcast.system
+[36mvertx1_1  |[0m INFO: [172.24.0.3]:5701 [dev] [3.8.2] Cluster version set to 3.8
+[36mvertx1_1  |[0m Sep 13, 2018 1:42:50 PM com.hazelcast.internal.cluster.ClusterService
+[36mvertx1_1  |[0m INFO: [172.24.0.3]:5701 [dev] [3.8.2] 
+[36mvertx1_1  |[0m 
+[36mvertx1_1  |[0m Members [2] {
+[36mvertx1_1  |[0m 	Member [172.24.0.2]:5701 - 7744aba6-041d-49ff-bd53-14e44810c9fc
+[36mvertx1_1  |[0m 	Member [172.24.0.3]:5701 - e9beffd6-8048-4641-bfd2-aca77d13bdf7 this
+[36mvertx1_1  |[0m }
+[36mvertx1_1  |[0m 
+[36mvertx1_1  |[0m Sep 13, 2018 1:42:52 PM com.hazelcast.core.LifecycleService
+[36mvertx1_1  |[0m INFO: [172.24.0.3]:5701 [dev] [3.8.2] [172.24.0.3]:5701 is STARTED
+[36mvertx1_1  |[0m Sep 13, 2018 1:42:52 PM io.vertx.core.impl.HAManager
+[36mvertx1_1  |[0m INFO: A quorum has been obtained. Any deploymentIDs waiting on a quorum will now be deployed
+[36mvertx1_1  |[0m Sep 13, 2018 1:42:53 PM de.tarent.JavaVertxLab lambda$main$0
+[36mvertx1_1  |[0m INFO: {"ha":true,"instances":1,"maxWorkerExecuteTime":60000000000,"multiThreaded":false,"worker":false,"workerPoolSize":20}
+[36mvertx1_1  |[0m Sep 13, 2018 1:42:53 PM de.tarent.HaTestVerticle start
+[36mvertx1_1  |[0m WARNING: HA verticle started
+[36mvertx1_1  |[0m Sep 13, 2018 1:42:55 PM de.tarent.HaTestVerticle lambda$start$0
+[36mvertx1_1  |[0m WARNING: Hello from HA verticle
+[36mvertx1_1  |[0m Sep 13, 2018 1:42:57 PM de.tarent.HaTestVerticle lambda$start$0
+[36mvertx1_1  |[0m WARNING: Hello from HA verticle
+[36mvertx1_1  |[0m Sep 13, 2018 1:42:59 PM de.tarent.HaTestVerticle lambda$start$0
+[36mvertx1_1  |[0m WARNING: Hello from HA verticle
